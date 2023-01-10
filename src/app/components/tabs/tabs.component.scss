@@ -1,0 +1,25 @@
+.tabs {
+  display: flex;
+  background-color: rgba(white, 0.25);
+  padding: 10px;
+  border-radius: 12px;
+  gap: 14px; //per ti dhene hapsire tabeve njera nga tjetra
+  backdrop-filter: blur(3px); //e ben blur pjesen mbrapa
+  margin: 12px;
+  margin-top: 50px;
+}
+
+.tab {
+}
+
+.tab-tile {
+  display: flex;
+  padding: 18px;
+  background: rgba(black, 0.1);
+
+  cursor: pointer;
+
+  i {
+    color: #222;
+  }
+}
