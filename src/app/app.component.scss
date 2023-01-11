@@ -3,11 +3,17 @@
   flex-direction: column;
   height: 100%;
   //background-color: #e1e2ed;
-  background-image: url("https://images.unsplash.com/photo-1670788050449-32d3139a34c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3MzI5NzIxMw&ixlib=rb-4.0.3&q=80&w=1920");
+  background-image: url("https://images.unsplash.com/photo-1671885637562-81ff14b51d3c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY3MzM0Mzg2OA&ixlib=rb-4.0.3&q=80&w=1920");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  //opacity: 2;
+}
+
+.app-wrapper::before {
+    background: rgba(black, 0.5);
+    z-index: 1;
 }
 
 .top-section {
