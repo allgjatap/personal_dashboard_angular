@@ -1,1 +1,29 @@
-<p>bookmarks works!</p>
+<div class="col-md-12 centerCat">
+  <div class="col-md-4 centerCated" *ngFor="let bookmark of bookmarkModel">
+    <a href="{{ bookmark.link }}" target="_blank">
+      <img
+        src="{{ bookmark.image }}"
+        width="30px"
+        height="30px"
+        class="catImmage"
+      />
+      <p class="title">{{ bookmark.title }}</p>
+    </a>
+  </div>
+</div>
+
+<div class="col-md-12 centerCat">
+  <div class="col-md-6 centerCated">
+    <h3 class="add">+ ADD</h3>
+  </div>
+  <div class="col-md-6 centerManage manage">
+    <img
+      src="../../../assets/settingss.png"
+      width="20px"
+      height="20px"
+      class="catImmage"
+    />
+
+    <h3 class="add">Manage</h3>
+  </div>
+</div>
