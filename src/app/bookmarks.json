@@ -1,0 +1,25 @@
+[
+    {
+        "image": "../../../assets/google.png",
+        "title": "Google",
+        "link": "https://www.google.com/"
+      },
+      {
+        "image": "../../../assets/youtube.png",
+        "title": "YouTube",
+        "link": "https://www.youtube.com/"
+
+      },
+      {
+        "image": "../../../assets/freewiki.png",
+        "title": "Wikipedia",
+        "link": "https://www.wikipedia.com/"
+
+      },
+      {
+        "image": "../../../assets/e.png",
+        "title": "Example",
+        "link": "https://www.google.com/"
+
+      }
+]
