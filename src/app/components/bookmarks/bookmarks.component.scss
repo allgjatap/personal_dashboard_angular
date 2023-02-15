@@ -1,53 +1,79 @@
-.centerCat{
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    
+.container {
+  max-width: 850px;
+  margin: auto;
+}
+.bookmark {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  max-width: 850px;
+  margin: auto;
+  gap: 20px;
 }
 
-.catImmage{
-    border-radius: 10px;
+.bookmark-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgba(22, 3, 3, 0.637);
+  transition: all 0.1s;
+
+  &:hover{
+    background-color: rgba(black, 0.68);
+    backdrop-filter: blur(2px);
+  }
+  &:active{
+    background-color: rgba(black, 0.75);
+    transform: translateY(2px); //shkon poshte 2px
+    transition-duration: 0s;
+  }
 }
 
-.centerCated{
-    width: 100px;
-    //height: 100px;
-    // padding-left: 28px;
-    // padding-right: 28px;
-    padding-top: 15px;
-    padding-bottom: 11px;
-    margin: 10px;
-    background-color: rgba(22, 3, 3, 0.637);
-
+.title {
+  font-size: 14px;
+  color: rgb(white, 0.85);
+  line-height: 0;
 }
 
-.title{
-    font-size: 14px;
-    color: white;
-    line-height: 0;
+.add {
+  font-size: 14px;
+  color: rgb(white, 0.85);
+  line-height: 0;
 }
 
-.add{
-    font-size: 14px;
-    color: white;
-    line-height: 0;
-  
+.manage {
+  display: flex;
+  align-items: center;
 }
 
-.manage{
-    display: flex;
-    align-items: center;
+.centerManage {
+  width: 100px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 11px;
+  margin: 10px;
+  background-color: rgba(22, 3, 3, 0.637);
 }
 
-.centerManage{
-    width: 100px;
-    //height: 100px;
-     padding-left:15px;
-    // padding-right: 28px;
-    padding-top: 15px;
-    padding-bottom: 11px;
-    margin: 10px;
-    background-color: rgba(22, 3, 3, 0.637);
+.bookmark-manage {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  max-height: 66px;
+}
+
+.bookmark-add {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin: 10px;
+
+  background-color: rgba(22, 3, 3, 0.637);
 }
